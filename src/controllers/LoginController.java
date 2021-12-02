@@ -80,7 +80,6 @@ public class LoginController {
 				Main.stage.setScene(scene);
 				// ***Set user ID acquired from db****
 				int user_id = model.getId();  
-				String username1 = username;
 				ClientController.setUserid(user_id);
 				Main.stage.setTitle("Client View");
 			}
