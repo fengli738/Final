@@ -47,7 +47,7 @@
       </Pane>
       <Pane fx:id="pane4" layoutX="164.0" layoutY="-2.0" prefHeight="400.0" prefWidth="435.0">
          <children>
-            <TableView fx:id="tblNotes" layoutX="36.0" layoutY="100.0" prefHeight="200.0" prefWidth="227.0" visible="false">
+            <TableView fx:id="tblNotes" layoutX="36.0" layoutY="100.0" prefHeight="200.0" prefWidth="300.0" visible="false">
         		<columns>
           			<TableColumn fx:id="tid" prefWidth="50.0" text="tid" />
           			<TableColumn fx:id="cid1" prefWidth="50.0" text="cid" />

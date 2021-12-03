@@ -8,9 +8,9 @@
 
 <AnchorPane maxHeight="400.0" maxWidth="600.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ClientController">
    <children>
-      <Button layoutX="51.0" layoutY="75.0" mnemonicParsing="false" onAction="#viewNotes" prefHeight="25.0" prefWidth="120.0" text="View Accounts" />
-      <Button layoutX="51.0" layoutY="138.0" mnemonicParsing="false" onAction="#createNotes" prefHeight="27.0" text="Create Transactions" AnchorPane.rightAnchor="429.0" />
-      <Button layoutX="51.0" layoutY="204.0" mnemonicParsing="false" onAction="#logout" prefHeight="25.0" prefWidth="120.0" text="Logout" AnchorPane.bottomAnchor="245.0" AnchorPane.leftAnchor="51.0" AnchorPane.rightAnchor="429.0" AnchorPane.topAnchor="204.0" />
+      <Button layoutX="51.0" layoutY="75.0" mnemonicParsing="false" onAction="#viewNotes" prefHeight="25.0" prefWidth="131.0" text="View Notes" />
+      <Button layoutX="51.0" layoutY="127.0" mnemonicParsing="false" onAction="#createNotes" prefHeight="27.0" prefWidth="131.0" text="Create Notes" AnchorPane.rightAnchor="417.66666666666663" />
+      <Button layoutX="51.0" layoutY="175.0" mnemonicParsing="false" onAction="#logout" prefHeight="25.0" prefWidth="131.0" text="Logout" AnchorPane.bottomAnchor="274.0" AnchorPane.leftAnchor="51.0" AnchorPane.rightAnchor="418.0" AnchorPane.topAnchor="175.0" />
       <TableView fx:id="tblNotes" layoutX="284.0" layoutY="75.0" prefHeight="200.0" prefWidth="227.0">
         <columns>
           <TableColumn fx:id="tid" prefWidth="50.0" text="tid" />
